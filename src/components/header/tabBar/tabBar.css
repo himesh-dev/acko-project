@@ -1,0 +1,41 @@
+.tabBar {
+  /* background-color: yellow; */
+  display: flex;
+  align-self: center;
+}
+
+.tab {
+  height: 60px;
+  box-sizing: border-box;
+  display: flex;
+  margin-right: 10px;
+  bottom: 5px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.tab-label {
+  color: #fff;
+  font-size: 14px;
+  /* text-align: center; */
+  /* background-color: green; */
+  align-self: center;
+  /* vertical-align: middle; */
+}
+.active {
+  border-bottom: 2px solid #5270e7;
+}
+@media only screen and (max-width: 768px){
+  .tabBar{
+    display: none;
+  }
+  .toggle{
+    display: block;
+    border: 1px solid #e0e0e0;
+    /* height: 100px; */
+    position: absolute;
+    top: 60px;
+    right: 10px;
+    width: 40%;
+    background-color: black;
+  }
+}

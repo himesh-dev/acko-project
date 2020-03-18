@@ -1,0 +1,29 @@
+.search-box{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+.input-box{
+    width:45%;
+    height: 45px;
+    border:none;
+    margin-right: 2%;
+    border-radius: 8px;
+    padding-left: 20px;
+}
+.search-button{
+    height: 45px;
+    background-color: #5270e7;
+    border-radius: 8px;
+    border: none;
+    color:#fff;
+    width:15%;
+}
+@media only screen and (max-width: 768px){
+    .input-box{
+        width:65%
+    }
+    .search-button{
+        width: 20%
+    }
+}

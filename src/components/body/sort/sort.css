@@ -1,0 +1,21 @@
+.sort-tag {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  width:95%;
+  margin-bottom: 20px;
+}
+.sort-label {
+  font-size: 14px;
+}
+.down-arrow {
+  height: 10px;
+  margin-left: 3px;
+  vertical-align: middle;
+}
+@media only screen and (max-width: 768px){
+  .sort-tag{
+    margin-top: 15px;
+    padding-right: 5px;
+  }
+}

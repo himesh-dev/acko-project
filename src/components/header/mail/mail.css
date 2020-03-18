@@ -1,0 +1,25 @@
+.mail-container {
+  /* background-color: brown; */
+  align-self: center;
+  display: flex;
+  margin-right: 50px;
+  /* flex-direction: row; */
+  /* justify-content: center; */
+}
+.mail-icon {
+  height: 30px;
+  width: 30px;
+  /* color: #fff; */
+  /* background-color: honeydew; */
+}
+.mail-badge {
+  height: 10px;
+  width: 10px;
+  border-radius: 5px;
+  background-color: #5270e7;
+  /* position: relative;
+  top: 0;
+  right: 0; */
+  margin-left: -5px;
+  /* margin-bottom: -20px; */
+}

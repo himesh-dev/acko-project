@@ -1,0 +1,133 @@
+.card-container {
+  /* height: 40vh; */
+  width: 49%;
+  /* min-width: 400px; */
+  margin-bottom: 5%;
+  background-color: white;
+  box-sizing: border-box;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img-description {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  /* background-color: yellow; */
+  /* height: 150px; */
+  width: 100%;
+  /* overflow: hidden; */
+}
+.card-img {
+  height: 150px;
+  width: 150px;
+  margin-right: 20px;
+  transform: translateY(-40px);
+  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
+  border-radius: 5px;
+  /* margin-top: -40px; */
+  /* margin-bottom: 40px; */
+  object-fit: cover;
+}
+.description-container {
+  width: 65%;
+  overflow: hidden;
+}
+.card-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin: 0;
+  color: #0f151f;
+}
+.card-tag {
+  font-size: 12px;
+  margin-top: 5px;
+  color: #8c8c8c;
+}
+.description-text {
+  /* white-space: nowrap; */
+  /* height: 100px; */
+  color: #8c8c8c;
+  text-overflow: ellipsis;
+  font-size: 14px;
+}
+.details-rating {
+  /* background-color: red; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  justify-content: space-between;
+}
+.details > p,
+.rating > p {
+  margin: 0 0 3px 0;
+  font-size: 14px;
+  color: #8c8c8c;
+}
+.details > p > strong {
+  color: #0f151f;
+}
+.rating {
+  text-align: end;
+}
+.avatar-button {
+  margin-top: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.avatar-container {
+  display: flex;
+  background: transparent;
+}
+
+.avatar:not(:first-child) {
+  margin-left: -30px;
+  /* border:1px solid #fff; */
+}
+.button {
+  width: 150px;
+  height: 40px;
+  background: linear-gradient(
+    90deg,
+    rgba(82, 112, 231, 1) 22%,
+    rgba(117, 140, 233, 1) 78%
+  );
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  font-size: 12px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+@media only screen and (max-width: 768px) {
+  .card-container {
+    width: 90%;
+    margin-bottom: 10%;
+  }
+  /* .description-container {
+    width: 100%;
+    overflow: hidden;
+  } */
+  .button{
+    margin-top: 10px;
+  }
+}
+/* @media only screen and (min-width: 768px) and (max-width: 1024px) {
+.card-container{
+  width:49%;
+} */
+
+/* } */
+@media only screen and (max-width: 1367px){
+  .description-container {
+    width: 100%;
+    overflow: hidden;
+  }
+}
